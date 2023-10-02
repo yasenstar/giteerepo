@@ -90,6 +90,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#弱电解质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#弱电解质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.03_强电解质与弱电解质"/>
+        <chemistry:定义>在水溶液中或熔融状态下部分电离成离子的电解质。例如：
+- 弱酸：Ch3COOH, H3PO4, H2CO3等
+- 弱碱：NH3, H2O等
+- 水</chemistry:定义>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#强电解质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#强电解质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.03_强电解质与弱电解质"/>
+        <chemistry:定义>在水溶液中或熔融状态下全部电离成离子的电解质。例如：
+- 强酸：HCl, HNO3, H2SO4等
+- 强碱：KOH, NaOH, Ca(OH)2, Ba(OH)2
+- 多数盐：NaNO3, NaCl, BaSo4等</chemistry:定义>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#未知 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#未知">
@@ -126,6 +150,16 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#液体">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#电解质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#电解质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.01_电解质与非电解质"/>
+        <chemistry:定义>在水溶液里或熔融状态下能导电的化合物。
+酸、碱、盐、水、活泼金属氧化物等都是电解质。</chemistry:定义>
     </owl:Class>
     
 
@@ -204,6 +238,16 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#镧系元素">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#金属"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#非电解质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#非电解质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.01_电解质与非电解质"/>
+        <chemistry:定义>在水溶液里和熔融状态下都不能导电的化合物。
+非金属氧化物、多数有机物、NH3等都是非电解质。</chemistry:定义>
     </owl:Class>
     
 
@@ -433,6 +477,11 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.02_电离">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
+        <chemistry:定义>电解质溶于水或受热熔化时，形成自由移动的离子的过程叫做电离。</chemistry:定义>
+        <chemistry:知识点>用化学式或离子符号表示电离过程的式子叫离子方程式。
+NaCl == Na+ + Cl-
+HCl == H+ + Cl-
+KNO3 == K+ + NO3-</chemistry:知识点>
     </owl:Class>
     
 
@@ -460,6 +509,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.04_离子反应">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
+        <chemistry:定义>电解质在溶液中的反应实质上是离子之间的反应，这样的反应叫离子反应。</chemistry:定义>
+        <chemistry:知识点>实质：酸碱盐在水溶液中发生离子反应的条件为生成沉淀、放出气体或生成水。只要具备条件之一，反应就能发生。</chemistry:知识点>
     </owl:Class>
     
 
@@ -468,6 +519,11 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.05_离子方程式">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
+        <chemistry:定义>用实际参加反应的离子符号来表示反应的式子叫离子方程式。
+注：只有在水溶液中才写离子方程式。</chemistry:定义>
+        <chemistry:知识点>书写步骤：一写、二拆、三删、四查
+注：不拆的物质有氧化物、沉淀、气体、弱电解质等</chemistry:知识点>
+        <chemistry:知识点>意义：离子方程式不仅可以表示某个具体的化学反应，还可以表示同一类型的离子反应。</chemistry:知识点>
     </owl:Class>
     
 
@@ -476,6 +532,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.06_复分解反应的条件">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
+        <chemistry:知识点>实质：向着某种离子浓度减小的方向进行</chemistry:知识点>
+        <chemistry:知识点>现象：只要具备生成沉淀、放出气体或者生成水这些条件之一就行。</chemistry:知识点>
     </owl:Class>
     
 
@@ -484,6 +542,11 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.07_离子共存">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
+        <chemistry:知识点>溶液中离子的来源：酸、碱、盐等电解质电离。</chemistry:知识点>
+        <chemistry:知识点>离子不共存会生成哪些类别的物质？
+宏观上：沉淀、放出气体或者生成水。
+实质：向着某种离子浓度减小的方向进行 -- 生成在水溶液中不能完全电离的物质。</chemistry:知识点>
+        <chemistry:知识点>酸、碱、盐在水溶液中发生哪种类型的反应：复分解反应</chemistry:知识点>
     </owl:Class>
     
 
