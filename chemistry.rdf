@@ -22,6 +22,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#定义 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#定义"/>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#知识点 -->
 
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#知识点"/>
@@ -57,6 +63,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#丁达尔效应 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#丁达尔效应">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02.02_胶体"/>
+        <chemistry:定义>当光束通过胶体时，可看到一条明亮的“光路”的效应叫丁达尔效应。
+成因：胶粒对光线的散射而形成的。
+应用：可用来区别溶液和胶体。</chemistry:定义>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#交叉分类法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#交叉分类法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.01_根据物质的组成和性质分类"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#固体 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#固体">
@@ -69,6 +94,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#未知">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#树状分类法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#树状分类法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.01_根据物质的组成和性质分类"/>
     </owl:Class>
     
 
@@ -292,14 +325,89 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02_分散系及其分类">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01_物质的分类及转化"/>
+        <chemistry:定义>把一种（或多种）物质以粒子形式分散到另一种（或多种）物质中所形成的混合物，叫做分散系。
+分散系中被分散成粒子的物质叫分散质，另一种物质叫分散剂。</chemistry:定义>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03_胶体 -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02.01_溶液 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03_胶体">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02.01_溶液">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02_分散系及其分类"/>
+        <chemistry:定义>分散质粒子的直径小于1nm的是溶液。</chemistry:定义>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02.02_胶体 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02.02_胶体">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02_分散系及其分类"/>
+        <chemistry:定义>分散质粒子的直径为1~100nm的是胶体</chemistry:定义>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02.03_乳浊液或悬浊液 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02.03_乳浊液或悬浊液">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02_分散系及其分类"/>
+        <chemistry:定义>分散质粒子的直径大于100nm的是乳浊液或悬浊液。</chemistry:定义>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03_酸碱盐的性质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03_酸碱盐的性质">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01_物质的分类及转化"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03.01_酸的性质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03.01_酸的性质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03_酸碱盐的性质"/>
+        <chemistry:知识点>1. 酸遇石蕊变红
+2. 酸+活泼金属=盐+氢气
+3. 酸+碱=盐+水
+4. 酸+碱性氧化物=盐+水
+5. 酸+盐=新酸+新盐</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03.02_碱的性质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03.02_碱的性质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03_酸碱盐的性质"/>
+        <chemistry:知识点>1. 碱遇石蕊变蓝
+2. 碱遇酚酞变红
+3. 碱+酸=盐+水
+4. 碱+酸性氧化物=盐+水
+5. 碱+盐=新碱+新盐</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.04_分类的观点 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.04_分类的观点">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01_物质的分类及转化"/>
+        <chemistry:知识点>不同类物质组成不同，则化学性质不同；同类物质组成相似，则化学性质相似。
+分类的观点帮助我们确定同类物质的类别通性，分析物质转化关系，认识新物质，制取新物质。</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.05_物质的转化 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.05_物质的转化">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01_物质的分类及转化"/>
+        <chemistry:知识点>在化学变化过程中，元素不会改变，这是如何考虑实现物质之间的转化时最基本的依据。
+掌握各类物质间的转化模型。</chemistry:知识点>
     </owl:Class>
     
 
@@ -309,6 +417,73 @@
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01_物质及其变化"/>
         <chemistry:知识点>离子反应发生的条件，离子方程式的书写</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.01_电解质与非电解质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.01_电解质与非电解质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.02_电离 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.02_电离">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.03_强电解质与弱电解质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.03_强电解质与弱电解质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.03.03_盐的性质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.03.03_盐的性质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03_酸碱盐的性质"/>
+        <chemistry:知识点>1. 盐+酸=新盐+新酸
+2. 盐+碱=新盐+新碱
+3. 盐+盐=新盐+新盐</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.04_离子反应 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.04_离子反应">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.05_离子方程式 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.05_离子方程式">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.06_复分解反应的条件 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.06_复分解反应的条件">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.07_离子共存 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.07_离子共存">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02_离子反应"/>
     </owl:Class>
     
 
@@ -1362,6 +1537,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe(OH)3胶体的制备 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe(OH)3胶体的制备">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02.02_胶体"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1372,6 +1555,25 @@
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
         <rdfs:label>化学</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03.01_酸的性质"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.03.02_碱的性质"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.02.03.03_盐的性质"/>
+        </owl:members>
     </rdf:Description>
 </rdf:RDF>
 
