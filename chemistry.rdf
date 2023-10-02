@@ -560,6 +560,50 @@ KNO3 == K+ + NO3-</chemistry:知识点>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.01_不同角度认识氧化还原 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.01_不同角度认识氧化还原">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03_氧化还原反应"/>
+        <chemistry:知识点>1. 得到氧发生氧化反应，失去氧发生还原反应；
+    如：H2 + CuO == H2O + Cu
+2. 化合价升高发生氧化反应，化合价降低发生还原反应；
+    如：Zn + 2HCl == ZnCl2 + H2
+3. 失去电子（或偏离）发生氧化反应，得到电子（或偏向）发生还原反应。
+    如：2Na + Cl2 == 2NaCl</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.02_氧化还原反应与四种基本类型反应的关系 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.02_氧化还原反应与四种基本类型反应的关系">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03_氧化还原反应"/>
+        <chemistry:知识点>置换反应一定属于氧化还原反应；
+复分解反应一定不属于氧化还原反应；
+化合反应和分解反应部分属于氧化还原反应。</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.03_电子表示法 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.03_电子表示法">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03_氧化还原反应"/>
+        <chemistry:知识点>（1）标明元素反应前后的化合价
+（2）连接反应前后不同价态的同种元素
+（3）线桥跨越等号
+（4）得失电子总数相等
+
+MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
+        <chemistry:知识点>（1）还原剂中失电子元素指向氧化剂
+（2）“桥”上标明转移的电子总数
+（3）不必标明得失
+
+2CuO + C == 2Cu + CO2</chemistry:知识点>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#010_Ne -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#010_Ne">
