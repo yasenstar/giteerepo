@@ -37,6 +37,41 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#是化合物 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#是化合物">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#知识结构"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#是单质 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#是单质">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#知识结构"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#相关于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#相关于"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
