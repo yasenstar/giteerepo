@@ -639,6 +639,24 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.04_氧化剂与还原剂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.04_氧化剂与还原剂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03_氧化还原反应"/>
+        <chemistry:定义>氧化剂：所含元素化合价降低即得到电子的物质，本身被还原（简记为：降得还）</chemistry:定义>
+        <chemistry:定义>还原剂：所含元素化合价升高即失去电子的物质，本身被氧化（简记为：升失氧）</chemistry:定义>
+        <chemistry:知识点>氧化剂类别举例：
+- 活泼的非金属单质：Cl2, O2
+- 高价态的含氧酸：HNO3, 浓H2SO4
+- 含高价元素的盐：KMnO4, FeCl3</chemistry:知识点>
+        <chemistry:知识点>还原剂类别举例：
+- 活泼的金属单质：Fe, Na, Al
+- 非金属单质：H2, C
+- 低价态的氧化物和盐：CO, SO2, KI, FeSO3</chemistry:知识点>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#010_Ne -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#010_Ne">
