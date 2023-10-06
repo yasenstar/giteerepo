@@ -117,10 +117,40 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#先后规律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#先后规律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.05_氧化还原反应规律"/>
+        <chemistry:知识点>1. 同一氧化剂与多种还原剂混合，还原性强的先被氧化
+2. 同一还原剂与多种氧化剂混合，氧化性强的先被还原</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合价规律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合价规律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.05_氧化还原反应规律"/>
+        <chemistry:知识点>1. 元素处于最高价态，只具有氧化性；处于最低价态，只具有还原性；处于中间价态，既有氧化性又有还原性。
+2. 同种元素不同价态之间发生氧化还原反应时可总结为：价态相邻能共存，价态相间能归中，归中价态不交叉，价升价降只靠拢</chemistry:知识点>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#固体 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#固体">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#守恒定律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#守恒定律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.05_氧化还原反应规律"/>
+        <chemistry:定义>氧化剂得到电子的总数等于还原剂失去电子的总数。
+这是配平氧化还原反应方程式的依据，也是有关氧化还原反应计算的依据。</chemistry:定义>
     </owl:Class>
     
 
@@ -133,6 +163,16 @@
 - 弱酸：Ch3COOH, H3PO4, H2CO3等
 - 弱碱：NH3, H2O等
 - 水</chemistry:定义>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#强弱规律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#强弱规律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.05_氧化还原反应规律"/>
+        <chemistry:知识点>1. 氧化性：氧化剂 &gt; 氧化产物的氧化性
+2. 还原性：还原剂 &gt; 还原产物的还原性</chemistry:知识点>
     </owl:Class>
     
 
@@ -657,6 +697,14 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.05_氧化还原反应规律 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.05_氧化还原反应规律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03_氧化还原反应"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#010_Ne -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#010_Ne">
@@ -749,6 +797,30 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02_海水中的重要元素-纳和氯">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#知识结构"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.01_钠及其化合物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.01_钠及其化合物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02_海水中的重要元素-纳和氯"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.02_氯及其化合物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.02_氯及其化合物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02_海水中的重要元素-纳和氯"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.03_物质的量 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.03_物质的量">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02_海水中的重要元素-纳和氯"/>
     </owl:Class>
     
 
