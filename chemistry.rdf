@@ -239,6 +239,18 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#氧化纳_Na2O">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.01_钠及其化合物"/>
+        <chemistry:知识点>化学式：Na2O
+化合物类型：离子化合物
+阳、阴离子数之比：Na(+)和O2(-)之比为2:1
+氧元素化合价：-2
+属类：碱性氧化物
+颜色：白色
+状态：固体
+化学性质-与水反应：Na2O + H2O == 2NaOH
+化学性质-与CO2反应：Na2O + CO2 == Na2CO3
+化学性质-与盐酸反应：Na2O + 2HCl == 2NaCl + H2O
+用途：--
+保存：隔绝空气，密封保存</chemistry:知识点>
     </owl:Class>
     
 
@@ -300,6 +312,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碳酸氢钠_NaHCO3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碳酸氢钠_NaHCO3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.01_钠及其化合物"/>
+        <chemistry:知识点>俗名：小苏打
+色态：细小白色晶体
+水溶性：易溶于水（但比Na2CO3的溶解度小），溶液呈碱性
+稳定性：受热易分解
+与H+反应：HCO3(-) + H(+) == CO2^ + H2O（较快）
+与碱【如Ca(OH)2】反应：
+与CaCl2溶液反应： 不反应
+主要用途：发酵、医药、灭火器</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碳酸钠_Na2CO3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碳酸钠_Na2CO3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.01_钠及其化合物"/>
+        <chemistry:知识点>俗名：纯碱或苏打
+色态：白色晶体
+水溶性：易溶于水，溶液呈碱性
+稳定性：稳定，但结晶碳酸钠（Na2CO3.xH2O）易风化
+与H+反应：CO3(2-) + 2H(+) == CO2^ + H2O（较慢）
+与碱【如Ca(OH)2】反应：与OH(-)不反应，但 Ca(2+) + CO3(2-) == CaCO3
+与CaCl2溶液反应： Ca(2+) + CO3(2-) == CaCO3
+主要用途：用于玻璃、造纸、制皂、纺织等工业中</chemistry:知识点>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#稀有气体 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#稀有气体">
@@ -328,6 +372,18 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#过氧化钠_Na2O2">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.01_钠及其化合物"/>
+        <chemistry:知识点>化学式：Na2O2
+化合物类型：离子化合物
+阳、阴离子数之比：Na(+)和O2(2-)之比为2:1
+氧元素化合价：-1
+属类：过氧化物
+颜色：淡黄色
+状态：固体
+化学性质-与水反应：2Na2O2 + 2H2O == 4NaOH + O2(gas)
+化学性质-与CO2反应：2Na2O2 + 2CO2 == 2Na2CO3 + O2(gas)
+化学性质-与盐酸反应：2Na2Os + 4HCl == 4NaCl + O2(gas) + 2H2O
+用途：--
+保存：隔绝空气，密封保存</chemistry:知识点>
     </owl:Class>
     
 
