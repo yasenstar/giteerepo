@@ -22,6 +22,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#分子式 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#分子式"/>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#定义 -->
 
     <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#定义"/>
@@ -82,7 +88,9 @@
 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element">
+        <rdfs:label>元素 Element</rdfs:label>
+    </owl:Class>
     
 
 
@@ -647,6 +655,18 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#类金属">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#葡萄糖 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#葡萄糖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#001_H"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#006_C"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#008_O"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#19_生物大分子"/>
+        <chemistry:分子式>C6H12O6</chemistry:分子式>
     </owl:Class>
     
 
@@ -2540,7 +2560,7 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
      -->
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
-        <rdfs:label>化学</rdfs:label>
+        <rdfs:label>化学 Chemistry</rdfs:label>
     </rdf:Description>
     
 
