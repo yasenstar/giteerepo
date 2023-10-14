@@ -662,11 +662,12 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#葡萄糖 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#葡萄糖">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#001_H"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#001_H_氢"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#006_C"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#008_O"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#19_生物大分子"/>
         <chemistry:分子式>C6H12O6</chemistry:分子式>
+        <chemistry:知识点>葡萄糖燃烧：C6H12O6 + 6O2 ==&gt; 6CO2 + 6H2O</chemistry:知识点>
     </owl:Class>
     
 
@@ -728,7 +729,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#钠单质_Na">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#固体"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#011_Na"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#011_Na_钠"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.01_钠及其化合物"/>
         <chemistry:知识点>钠原子最外层只有1个电子，容易失去，达到最外层8电子稳定结构。</chemistry:知识点>
     </owl:Class>
@@ -820,9 +821,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#001_H -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#001_H_氢 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#001_H">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#001_H_氢">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第01列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第1行"/>
@@ -841,9 +842,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#003_Li -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#003_Li_锂 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#003_Li">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#003_Li_锂">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第01列"/>
@@ -1222,9 +1223,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#011_Na -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#011_Na_钠 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#011_Na">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#011_Na_钠">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第01列"/>
@@ -1305,9 +1306,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#019_K -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#019_K_钾 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#019_K">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#019_K_钾">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第01列"/>
