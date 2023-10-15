@@ -780,7 +780,7 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#周期表-行"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#副族元素（过渡元素）"/>
     </owl:Class>
     
 
@@ -805,8 +805,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#葡萄糖">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#001_H_氢"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#006_C"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#008_O"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#006_C_碳"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#008_O_氧"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#19_生物大分子"/>
         <chemistry:分子式>C6H12O6</chemistry:分子式>
         <chemistry:知识点>葡萄糖燃烧：C6H12O6 + 6O2 ==&gt; 6CO2 + 6H2O</chemistry:知识点>
@@ -973,9 +973,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#002_He -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#002_He_氦 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#002_He">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#002_He_氦">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#稀有气体"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第18列"/>
@@ -995,9 +995,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#004_Be -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#004_Be_铍 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#004_Be">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#004_Be_铍">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第02列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第2行"/>
@@ -1016,9 +1016,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#006_C -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#006_C_碳 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#006_C">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#006_C_碳">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第14列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第2行"/>
@@ -1037,9 +1037,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#008_O -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#008_O_氧 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#008_O">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#008_O_氧">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第16列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第2行"/>
@@ -1047,9 +1047,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#009_F -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#009_F_氟 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#009_F">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#009_F_氟">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#卤族元素"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第17列"/>
@@ -1356,9 +1356,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#010_Ne -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#010_Ne_氖 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#010_Ne">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#010_Ne_氖">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#稀有气体"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第18列"/>
@@ -1380,9 +1380,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#012_Mg -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#012_Mg_镁 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#012_Mg">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#012_Mg_镁">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第02列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第3行"/>
@@ -1390,9 +1390,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#013_Al -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#013_Al_铝 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#013_Al">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#013_Al_铝">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第13列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第3行"/>
@@ -1400,9 +1400,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#014_Si -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#014_Si_硅 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#014_Si">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#014_Si_硅">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第14列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第3行"/>
@@ -1410,9 +1410,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#015_P -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#015_P_磷 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#015_P">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#015_P_磷">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第15列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第3行"/>
@@ -1444,9 +1444,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#018_Ar -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#018_Ar_氩 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#018_Ar">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#018_Ar_氩">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#稀有气体"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第18列"/>
@@ -1520,9 +1520,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#021_Sc -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#021_Sc_钪 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#021_Sc">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#021_Sc_钪">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1530,9 +1530,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#022_Ti -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#022_Ti_钛 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#022_Ti">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#022_Ti_钛">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第04列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1540,9 +1540,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#023_V -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#023_V_钒 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#023_V">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#023_V_钒">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第05列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1550,9 +1550,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#024_Cr -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#024_Cr_铬 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#024_Cr">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#024_Cr_铬">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第06列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1560,9 +1560,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#025_Mn -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#025_Mn_锰 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#025_Mn">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#025_Mn_锰">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第07列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1570,9 +1570,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe_铁 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe_铁">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第08列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1580,9 +1580,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#027_Co -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#027_Co_钴 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#027_Co">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#027_Co_钴">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第09列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1590,9 +1590,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#028_Ni -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#028_Ni_镍 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#028_Ni">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#028_Ni_镍">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第10列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1600,9 +1600,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#029_Cu -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#029_Cu_铜 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#029_Cu">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#029_Cu_铜">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第11列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1626,9 +1626,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#030_Zn -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#030_Zn_锌 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#030_Zn">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#030_Zn_锌">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第12列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1636,9 +1636,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#031_Ga -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#031_Ga_镓 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#031_Ga">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#031_Ga_镓">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第13列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1646,9 +1646,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#032_Ge -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#032_Ge_锗 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#032_Ge">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#032_Ge_锗">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第14列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1656,9 +1656,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#033_As -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#033_As_砷 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#033_As">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#033_As_砷">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第15列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1666,9 +1666,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#034_Se -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#034_Se_硒 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#034_Se">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#034_Se_硒">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第16列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
@@ -1688,9 +1688,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#036_Kr -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#036_Kr_氪 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#036_Kr">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#036_Kr_氪">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#稀有气体"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第18列"/>
@@ -1699,9 +1699,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#037_Rb -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#037_Rb_铷 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#037_Rb">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#037_Rb_铷">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第01列"/>
@@ -1710,9 +1710,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#038_Sr -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#038_Sr_锶 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#038_Sr">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#038_Sr_锶">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱土金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第02列"/>
@@ -1721,9 +1721,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#039_Y -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#039_Y_钇 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#039_Y">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#039_Y_钇">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1739,9 +1739,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#040_Zr -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#040_Zr_锆 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#040_Zr">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#040_Zr_锆">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第04列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1749,9 +1749,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#041_Nb -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#041_Nb_铌 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#041_Nb">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#041_Nb_铌">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第05列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1759,9 +1759,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#042_Mo -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#042_Mo_钼 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#042_Mo">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#042_Mo_钼">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第06列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1769,9 +1769,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#043_Tc -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#043_Tc_锝 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#043_Tc">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#043_Tc_锝">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第07列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1779,9 +1779,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#044_Ru -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#044_Ru_钌 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#044_Ru">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#044_Ru_钌">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第08列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1789,9 +1789,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#045_Rh -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#045_Rh_铑 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#045_Rh">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#045_Rh_铑">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第09列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1799,9 +1799,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#046_Pd -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#046_Pd_钯 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#046_Pd">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#046_Pd_钯">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第10列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1809,9 +1809,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#047_Ag -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#047_Ag_银 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#047_Ag">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#047_Ag_银">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第11列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1819,9 +1819,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#048_Cd -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#048_Cd_镉 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#048_Cd">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#048_Cd_镉">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第12列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1829,9 +1829,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#049_In -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#049_In_铟 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#049_In">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#049_In_铟">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第13列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1847,9 +1847,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#050_Sn -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#050_Sn_锡 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#050_Sn">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#050_Sn_锡">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第14列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1857,9 +1857,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#051_Sb -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#051_Sb_锑 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#051_Sb">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#051_Sb_锑">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第15列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1867,9 +1867,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#052_Te -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#052_Te_碲 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#052_Te">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#052_Te_碲">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第16列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第5行"/>
@@ -1877,9 +1877,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#053_I -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#053_I_碘 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#053_I">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#053_I_碘">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#卤族元素"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第17列"/>
@@ -1888,9 +1888,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#054_Xe -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#054_Xe_氙 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#054_Xe">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#054_Xe_氙">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#稀有气体"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第18列"/>
@@ -1899,9 +1899,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#055_Cs -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#055_Cs_铯 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#055_Cs">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#055_Cs_铯">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第01列"/>
@@ -1910,9 +1910,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#056_Ba -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#056_Ba_钡 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#056_Ba">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#056_Ba_钡">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱土金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第02列"/>
@@ -1921,9 +1921,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#057_La -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#057_La_镧 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#057_La">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#057_La_镧">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -1932,9 +1932,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#058_Ce -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#058_Ce_铈 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#058_Ce">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#058_Ce_铈">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -1943,9 +1943,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#059_Pr -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#059_Pr_镨 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#059_Pr">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#059_Pr_镨">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -1962,9 +1962,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#060_Nd -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#060_Nd_钕 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#060_Nd">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#060_Nd_钕">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -1973,9 +1973,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#061_Pm -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#061_Pm_钷 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#061_Pm">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#061_Pm_钷">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -1984,9 +1984,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#062_Sm -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#062_Sm_钐 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#062_Sm">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#062_Sm_钐">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -1995,9 +1995,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#063_Eu -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#063_Eu_铕 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#063_Eu">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#063_Eu_铕">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2006,9 +2006,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#064_Gd -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#064_Gd_钆 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#064_Gd">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#064_Gd_钆">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2017,9 +2017,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#065_Tb -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#065_Tb_铽 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#065_Tb">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#065_Tb_铽">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2028,9 +2028,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#066_Dy -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#066_Dy_镝 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#066_Dy">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#066_Dy_镝">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2039,9 +2039,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#067_Ho -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#067_Ho_钬 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#067_Ho">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#067_Ho_钬">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2050,9 +2050,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#068_Er -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#068_Er_铒 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#068_Er">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#068_Er_铒">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2061,9 +2061,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#069_Tm -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#069_Tm_铥 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#069_Tm">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#069_Tm_铥">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2080,9 +2080,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#070_Yb -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#070_Yb_镱 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#070_Yb">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#070_Yb_镱">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2091,9 +2091,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#071_Lu -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#071_Lu_镥 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#071_Lu">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#071_Lu_镥">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2102,9 +2102,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#072_Hf -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#072_Hf_铪 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#072_Hf">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#072_Hf_铪">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第04列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2112,9 +2112,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#073_Ta -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#073_Ta_钽 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#073_Ta">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#073_Ta_钽">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第05列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2122,9 +2122,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#074_W -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#074_W_钨 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#074_W">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#074_W_钨">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第06列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2132,9 +2132,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#075_Re -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#075_Re_铼 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#075_Re">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#075_Re_铼">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第07列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2142,9 +2142,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#076_Os -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#076_Os_锇 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#076_Os">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#076_Os_锇">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第08列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2152,9 +2152,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#077_Ir -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#077_Ir_铱 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#077_Ir">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#077_Ir_铱">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第09列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2162,9 +2162,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#078_Pt -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#078_Pt_铂 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#078_Pt">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#078_Pt_铂">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第10列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2194,9 +2194,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#080_Hg -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#080_Hg_汞 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#080_Hg">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#080_Hg_汞">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第12列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2204,9 +2204,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#081_Tl -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#081_Tl_铊 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#081_Tl">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#081_Tl_铊">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第13列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2214,9 +2214,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#082_Pb -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#082_Pb_铅 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#082_Pb">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#082_Pb_铅">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第14列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2224,9 +2224,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#083_Bi -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#083_Bi_铋 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#083_Bi">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#083_Bi_铋">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第15列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2234,9 +2234,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#084_Po -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#084_Po_钋 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#084_Po">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#084_Po_钋">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第16列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
@@ -2244,9 +2244,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#085_At -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#085_At_砹 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#085_At">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#085_At_砹">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#卤族元素"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第17列"/>
@@ -2255,9 +2255,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#086_Rn -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#086_Rn_氡 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#086_Rn">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#086_Rn_氡">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#稀有气体"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第18列"/>
@@ -2266,9 +2266,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#087_Fr -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#087_Fr_钫 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#087_Fr">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#087_Fr_钫">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第01列"/>
@@ -2277,9 +2277,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#088_Ra -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#088_Ra_镭 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#088_Ra">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#088_Ra_镭">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱土金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第02列"/>
@@ -2288,9 +2288,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#089_Ac -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#089_Ac_锕 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#089_Ac">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#089_Ac_锕">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2307,9 +2307,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#090_Th -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#090_Th_钍 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#090_Th">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#090_Th_钍">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2318,9 +2318,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#091_Pa -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#091_Pa_镤 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#091_Pa">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#091_Pa_镤">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2329,9 +2329,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#092_U -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#092_U_铀 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#092_U">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#092_U_铀">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2340,9 +2340,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#093_Np -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#093_Np_镎 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#093_Np">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#093_Np_镎">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2351,9 +2351,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#094_Pu -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#094_Pu_钚 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#094_Pu">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#094_Pu_钚">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2362,9 +2362,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#095_Am -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#095_Am_镅 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#095_Am">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#095_Am_镅">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2373,9 +2373,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#096_Cm -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#096_Cm_锔 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#096_Cm">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#096_Cm_锔">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2384,9 +2384,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#097_Bk -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#097_Bk_锫 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#097_Bk">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#097_Bk_锫">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2395,9 +2395,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#098_Cf -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#098_Cf_锎 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#098_Cf">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#098_Cf_锎">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2406,9 +2406,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#099_Es -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#099_Es_锿 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#099_Es">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#099_Es_锿">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2425,9 +2425,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#100_Fm -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#100_Fm_镄 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#100_Fm">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#100_Fm_镄">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2436,9 +2436,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#101_Md -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#101_Md_钔 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#101_Md">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#101_Md_钔">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2447,9 +2447,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#102_No -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#102_No_锘 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#102_No">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#102_No_锘">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2458,9 +2458,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#103_Lr -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#103_Lr_铹 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#103_Lr">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#103_Lr_铹">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第03列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2469,9 +2469,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#104_Rf -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#104_Rf_𬬻 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#104_Rf">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#104_Rf_𬬻">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第04列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2479,9 +2479,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#105_Db -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#105_Db_𬭊 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#105_Db">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#105_Db_𬭊">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第05列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2489,9 +2489,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#106_Sg -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#106_Sg_𬭳 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#106_Sg">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#106_Sg_𬭳">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第06列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2499,9 +2499,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#107_Bh -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#107_Bh_𬭛 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#107_Bh">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#107_Bh_𬭛">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第07列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2509,9 +2509,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#108_Hs -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#108_Hs_𬭶 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#108_Hs">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#108_Hs_𬭶">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第08列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2519,9 +2519,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#109_Mt -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#109_Mt_鿏 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#109_Mt">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#109_Mt_鿏">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第09列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2537,9 +2537,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#110_Ds -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#110_Ds_𫟼 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#110_Ds">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#110_Ds_𫟼">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第10列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2547,9 +2547,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#111_Rg -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#111_Rg_𬬭 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#111_Rg">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#111_Rg_𬬭">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第11列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2557,9 +2557,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#112_Cn -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#112_Cn_鿔 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#112_Cn">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#112_Cn_鿔">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第12列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2567,9 +2567,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#113_Nh -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#113_Nh_鿭 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#113_Nh">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#113_Nh_鿭">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第13列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2577,9 +2577,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#114_Fl -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#114_Fl_𫓧 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#114_Fl">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#114_Fl_𫓧">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第14列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2587,9 +2587,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#115_Mc -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#115_Mc_镆 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#115_Mc">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#115_Mc_镆">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第15列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2597,9 +2597,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#116_Lv -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#116_Lv_𫟷 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#116_Lv">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#116_Lv_𫟷">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第16列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第7行"/>
@@ -2607,9 +2607,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#117_Ts -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#117_Ts_钿 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#117_Ts">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#117_Ts_钿">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#卤族元素"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第17列"/>
@@ -2618,9 +2618,9 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#118_Og -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#118_Og_鿫 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#118_Og">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#118_Og_鿫">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#稀有气体"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第18列"/>
@@ -2707,14 +2707,14 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
         <chemistry:化学反应式>氯化金与羟胺溶液在冷的情况下能立即分解析出金：
 4AuCl3 + 6NH2OH == 4Au + 3N2O + 12HCL + 3H2O</chemistry:化学反应式>
-        <chemistry:化学反应式>金盐溶液与过硼酸钠作用生成金沉淀：
-12NaBO3 + 4AuCl3 + 12H2O == 4Au + 12NaCl + 12H2BO3 + 6O2</chemistry:化学反应式>
         <chemistry:化学反应式>氯化金溶液与过氧化钙反应生成金：
 2AuCl3 + 3CaO2 == 2Au + 3CaCl2 + 3O2</chemistry:化学反应式>
         <chemistry:化学反应式>金盐溶液与草酸的浓溶液作用生成金沉淀析出：
 3H2C2O4 + 2AuCl3 == 2Au + 6HCl + 6CO2</chemistry:化学反应式>
         <chemistry:化学反应式>金盐溶液与过氧化钠反应生成金沉淀析出：
 3Na2O2 + 2AuCl3 == 2Au + 6NaCl + 3O2</chemistry:化学反应式>
+        <chemistry:化学反应式>金盐溶液与过硼酸钠作用生成金沉淀：
+12NaBO3 + 4AuCl3 + 12H2O == 4Au + 12NaCl + 12H2BO3 + 6O2</chemistry:化学反应式>
     </owl:Class>
     
 
