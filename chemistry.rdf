@@ -102,6 +102,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#CaO2_过氧化钙 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#CaO2_过氧化钙">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>氯化金溶液与过氧化钙反应生成金：
+2AuCl3 + 3CaO2 == 2Au + 3CaCl2 + 3O2</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2C2O4_草酸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2C2O4_草酸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>金盐溶液与草酸的浓溶液作用生成金沉淀析出：
+3H2C2O4 + 2AuCl3 == 2Au + 6HCl + 6CO2</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2SO3_亚硫酸 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2SO3_亚硫酸">
@@ -178,6 +198,16 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
         <chemistry:化学反应式>氯化金与羟胺溶液在冷的情况下能立即分解析出金：
 4AuCl3 + 6NH2OH == 4Au + 3N2O + 12HCL + 3H2O</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Na2O2_过氧化钠 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Na2O2_过氧化钠">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>金盐溶液与过氧化钠反应生成金沉淀析出：
+3Na2O2 + 2AuCl3 == 2Au + 6NaCl + 3O2</chemistry:化学反应式>
     </owl:Class>
     
 
@@ -975,9 +1005,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#005_B -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#005_B_硼 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#005_B">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#005_B_硼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#NaBO3_过硼酸钠"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第13列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第2行"/>
@@ -1339,6 +1370,8 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#011_Na_钠 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#011_Na_钠">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Na2O2_过氧化钠"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#NaBO3_过硼酸钠"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第01列"/>
@@ -1475,9 +1508,10 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#020_Ca -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#020_Ca_钙 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#020_Ca">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#020_Ca_钙">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#CaO2_过氧化钙"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱土金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第02列"/>
@@ -2675,6 +2709,12 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
 4AuCl3 + 6NH2OH == 4Au + 3N2O + 12HCL + 3H2O</chemistry:化学反应式>
         <chemistry:化学反应式>金盐溶液与过硼酸钠作用生成金沉淀：
 12NaBO3 + 4AuCl3 + 12H2O == 4Au + 12NaCl + 12H2BO3 + 6O2</chemistry:化学反应式>
+        <chemistry:化学反应式>氯化金溶液与过氧化钙反应生成金：
+2AuCl3 + 3CaO2 == 2Au + 3CaCl2 + 3O2</chemistry:化学反应式>
+        <chemistry:化学反应式>金盐溶液与草酸的浓溶液作用生成金沉淀析出：
+3H2C2O4 + 2AuCl3 == 2Au + 6HCl + 6CO2</chemistry:化学反应式>
+        <chemistry:化学反应式>金盐溶液与过氧化钠反应生成金沉淀析出：
+3Na2O2 + 2AuCl3 == 2Au + 6NaCl + 3O2</chemistry:化学反应式>
     </owl:Class>
     
 
@@ -2721,5 +2761,5 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
