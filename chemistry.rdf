@@ -102,6 +102,37 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#AuCl3_氯化金_金盐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#AuCl3_氯化金_金盐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>氯化金与羟胺溶液在冷的情况下能立即分解析出金：
+4AuCl3 + 6NH2OH == 4Au + 3N2O + 12HCL + 3H2O</chemistry:化学反应式>
+        <chemistry:化学反应式>氯化金溶液与过氧化钙反应生成金：
+2AuCl3 + 3CaO2 == 2Au + 3CaCl2 + 3O2</chemistry:化学反应式>
+        <chemistry:化学反应式>金盐溶液与草酸的浓溶液作用生成金沉淀析出：
+3H2C2O4 + 2AuCl3 == 2Au + 6HCl + 6CO2</chemistry:化学反应式>
+        <chemistry:化学反应式>金盐溶液与过氧化钠反应生成金沉淀析出：
+3Na2O2 + 2AuCl3 == 2Au + 6NaCl + 3O2</chemistry:化学反应式>
+        <chemistry:化学反应式>金盐溶液与过硼酸钠作用生成金沉淀：
+12NaBO3 + 4AuCl3 + 12H2O == 4Au + 12NaCl + 12H2BO3 + 6O2</chemistry:化学反应式>
+        <chemistry:化学反应式>氯化氢的溶液与过氧化氢反应有金和氧生成：
+2AuCl3 + 3H2O2 == 2Au + 3O2 + 6HCl</chemistry:化学反应式>
+        <rdfs:comment>也叫“金盐”</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Br2_溴水 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Br2_溴水">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>金能溶解于溴水中，反应式如下：
+2Au + 3Br2 == 2AuBr3</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#CaO2_过氧化钙 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#CaO2_过氧化钙">
@@ -112,12 +143,47 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Cl2_氯水_氯气 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Cl2_氯水_氯气">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>氯气与水反应生成盐酸和次氯酸(HClO)
+Cl2 + H2O == HCl + HClO</chemistry:化学反应式>
+        <chemistry:化学反应式>氯气的制取：在实验室中，通常用二氧化锰和浓盐酸反应来制取氯气
+MnO2 + 4HCl（浓）== MnCl2 + 2H2O + Cl2</chemistry:化学反应式>
+        <chemistry:化学反应式>金能溶解于氯水中，反应式如下：
+2Au + 3Cl2 == 2AuCl3</chemistry:化学反应式>
+        <chemistry:知识点>取干燥的和湿润的有色布条各一条，分别放入两个盛有干燥氯气的集气瓶中，湿润的有色布条褪色，而干燥的有色布条不褪色。这是由于氯气和水反应生成了HClO</chemistry:知识点>
+        <chemistry:知识点>将有色鲜花放入盛有干燥氯气的集气瓶中，盖上玻璃片，可观察到有色鲜花变色。</chemistry:知识点>
+        <chemistry:知识点>新制氯水中存在“三分四离” --
+三分子：H2O、Cl2、HClO
+四离子：H+、Cl-、ClO-、OH-</chemistry:知识点>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2C2O4_草酸 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2C2O4_草酸">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
         <chemistry:化学反应式>金盐溶液与草酸的浓溶液作用生成金沉淀析出：
 3H2C2O4 + 2AuCl3 == 2Au + 6HCl + 6CO2</chemistry:化学反应式>
+        <chemistry:化学反应式>金化合物与草酸溶液反应金被析出：
+2H[AuCl4] + 3H2C2O4 == 2Au + 8HCl + 6CO2</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2O2_过氧化氢 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2O2_过氧化氢">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>氯化氢的溶液与过氧化氢反应有金和氧生成：
+2AuCl3 + 3H2O2 == 2Au + 3O2 + 6HCl</chemistry:化学反应式>
+        <chemistry:化学反应式>过氧化氢存在下金溶解于氰化钾溶液中，更容易生成氰亚金酸钾：
+H2O2 + 2Au + 4KCN == 2KAu(CN)2 + 2KOH</chemistry:化学反应式>
+        <chemistry:化学反应式>过氧化氢的酸性溶液与金作用能溶解金：
+2Au + H2O2 == Au2O2 + H2O</chemistry:化学反应式>
     </owl:Class>
     
 
@@ -148,6 +214,56 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
         <chemistry:化学反应式>氢氧化钾与氯金酸反应生成氧化金沉淀：
 3KOH + 2HAuCl4 == Au2O3 + 3KCl + 5HCl</chemistry:化学反应式>
+        <chemistry:化学反应式>碳酸钾和饱和的磷溶液与氯金酸作用有金析出：
+5HAuCl4 + 12K2CO3 + 3P == 5Au + 20KCl + 12CO2 + 2KH2PO4 + K2HPO4</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#HClO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#HClO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>HClO是一种弱酸，酸性比碳酸弱，HClO具有强氧化性，可以漂白、杀菌、消毒。HClO不稳定，在加热或光照条件下可发生分解：
+2HClO ==光照== 2HCl + O2</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#HCl_盐酸 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#HCl_盐酸">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>王水中含有过量的盐酸，溶解不完全，则有中间产物生成：
+4Au + 6HCl + 6HNO3 == 2Au2O2 + 6NOCl + 6H2O + O2</chemistry:化学反应式>
+        <chemistry:化学反应式>金溶解在王水中可生成高价金：
+Au + 3HCl + HNO3 == HAuCl4 + 2H2O + NO</chemistry:化学反应式>
+        <chemistry:化学反应式>金能溶解于王水中，反应式如下：
+Au + HNO3 + 3HCl == AuCl3 + NO + 2H2O</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#HNO3_王水 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#HNO3_王水">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>王水中含有过量的盐酸，溶解不完全，则有中间产物生成：
+4Au + 6HCl + 6HNO3 == 2Au2O2 + 6NOCl + 6H2O + O2</chemistry:化学反应式>
+        <chemistry:化学反应式>金溶解在王水中可生成高价金：
+Au + 3HCl + HNO3 == HAuCl4 + 2H2O + NO</chemistry:化学反应式>
+        <chemistry:化学反应式>金能溶解于王水中，反应式如下：
+Au + HNO3 + 3HCl == AuCl3 + NO + 2H2O</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#K2CO3_碳酸钾 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#K2CO3_碳酸钾">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>碳酸钾和饱和的磷溶液与氯金酸作用有金析出：
+5HAuCl4 + 12K2CO3 + 3P == 5Au + 20KCl + 12CO2 + 2KH2PO4 + K2HPO4</chemistry:化学反应式>
     </owl:Class>
     
 
@@ -186,8 +302,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#KCN_氰化钾">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
-        <chemistry:化学反应式>有氧存在条件下金能溶解于氰化钾溶液中：
-4Au + 8KCN + O2 + 2H2O == 4AuCN_KCN + 4KOH</chemistry:化学反应式>
+        <chemistry:化学反应式>有氧存在条件下金能溶解于氰化钾溶液中，生成氰亚金酸钾：
+4Au + 8KCN + O2 + 2H2O == 4AuK(CN)2 + 4KOH</chemistry:化学反应式>
+        <chemistry:化学反应式>氰亚金酸钾盐在氰化钾溶液中有锌屑即有金析出，锌可以取代金：
+2KAu(CN)2 + 4KCN + 2Zn + 2H2O == 2Au + 2K2Zn(CN)2 + 2KOH + H2</chemistry:化学反应式>
+        <chemistry:化学反应式>过氧化氢存在下金溶解于氰化钾溶液中，更容易生成氰亚金酸钾：
+H2O2 + 2Au + 4KCN == 2KAu(CN)2 + 2KOH</chemistry:化学反应式>
     </owl:Class>
     
 
@@ -198,6 +318,16 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
         <chemistry:化学反应式>氢氧化钾与氯金酸反应生成氧化金沉淀：
 3KOH + 2HAuCl4 == Au2O3 + 3KCl + 5HCl</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#MnO2_二氧化锰 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#MnO2_二氧化锰">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>氯气的制取：在实验室中，通常用二氧化锰和浓盐酸反应来制取氯气
+MnO2 + 4HCl（浓）== MnCl2 + 2H2O + Cl2</chemistry:化学反应式>
     </owl:Class>
     
 
@@ -228,6 +358,26 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
         <chemistry:化学反应式>金盐溶液与过硼酸钠作用生成金沉淀：
 12NaBO3 + 4AuCl3 + 12H2O == 4Au + 12NaCl + 12H2BO3 + 6O2</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#NaOH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#NaOH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>氯气与NaOH反应生成NaCl和NaClO，84消毒液的有效成分是NaClO:
+2NaOH + Cl2 == NaCl + NaClO + H2O</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#SnCl2_氯化亚锡 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#SnCl2_氯化亚锡">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>金化合物在中性及弱酸性溶液中与氯化亚锡溶液反应有紫色金析出：
+2H[AuCl4] + 3SnCl2 == 2Au + 3SnCl4 + 2HCl</chemistry:化学反应式>
     </owl:Class>
     
 
@@ -417,6 +567,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#摩尔质量 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#摩尔质量">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.03_物质的量"/>
+        <chemistry:定义>单位物质的量的物质所具有的质量，符号为M，摩尔质量的单位为g/mol.
+摩尔质量在数值上等于该物质的相对原子质量或相对分子质量：
+n = m/M or m = n x M or M = m/n</chemistry:定义>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#未知 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#未知">
@@ -464,9 +625,12 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#氯气 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#氯气">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Cl2_氯水_氯气"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.02_氯及其化合物"/>
         <chemistry:知识点>氯的存在：氯在自然界中除了以NaCl、MgCl2、CaCl2等形式大量存在于海水中，还存在于陆地的盐湖和盐矿中
 氯的发现：1774年，瑞典化学家舍勒，通过化学反应 4HCL(浓) + MnO2 == MnCl2 + Cl2^ + 2H2O，发现了氯气</chemistry:知识点>
+        <chemistry:知识点>氯气的制取：在实验室中，通常用二氧化锰和浓盐酸反应来制取氯气
+MnO2 + 4HCl（浓）== MnCl2 + 2H2O + Cl2</chemistry:知识点>
     </owl:Class>
     
 
@@ -474,7 +638,21 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#氯气的化学性质 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#氯气的化学性质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Cl2_氯水_氯气"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.02_氯及其化合物"/>
+        <chemistry:化学反应式>与金属反应：在加热或点燃的条件下，与几乎所有的金属直接化合，且把变价金属氧化为最高价，表现出强氧化性：
+2Na + Cl2 ==点燃== 2NaCl （发出黄色火焰，产生白烟）
+2Fe + 3Cl2 ==点燃== 2FeCl3 （剧烈燃烧，产生棕褐色烟）
+Cu + Cl2 ==点燃== CuCl2 （剧烈燃烧，产生棕黄色烟）</chemistry:化学反应式>
+        <chemistry:化学反应式>与非金属单质反应：氢气在氯气中安静地燃烧，发出苍白色火焰，生成的HCl气体在集气瓶瓶口与空气的水蒸气结合，形成白雾。
+H2 + Cl2 ==点燃== 2HCl</chemistry:化学反应式>
+        <chemistry:化学反应式>氯气与Ca(OH)2反应生成CaCl2和Ca(ClO)2，漂白粉的有效成分是Ca(ClO)2：
+2Ca(OH)2 + 2Cl2 == CaCl2 + Ca(ClO)2 + 2H2O</chemistry:化学反应式>
+        <chemistry:化学反应式>氯气与NaOH反应生成NaCl和NaClO，84消毒液的有效成分是NaClO:
+2NaOH + Cl2 == NaCl + NaClO + H2O</chemistry:化学反应式>
+        <chemistry:化学反应式>氯气与水反应生成盐酸和次氯酸(HClO)
+Cl2 + H2O == HCl + HClO</chemistry:化学反应式>
+        <chemistry:知识点>氯原子的最外层有7个电子，容易得到1个电子，达到最外层8电子稳定结构。所以氯气具有强氧化性。</chemistry:知识点>
     </owl:Class>
     
 
@@ -482,7 +660,9 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#氯气的物理性质 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#氯气的物理性质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Cl2_氯水_氯气"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.02_氯及其化合物"/>
+        <chemistry:知识点>氯气是黄绿色刺激性有毒气体，密度比空气大，易液化，溶于水，在水中溶解度不大(1:2)，在实验室中闻气体的方法：用手轻轻在瓶口扇动，使极少量气体飘进鼻孔。</chemistry:知识点>
     </owl:Class>
     
 
@@ -948,6 +1128,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#阿伏伽德罗常数 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#阿伏伽德罗常数">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.03_物质的量"/>
+        <chemistry:定义>国际上规定，1mol粒子集体所含的粒子数约为6.02xpow(10,23)。
+1mol任何粒子的粒子数叫做阿伏伽德罗常数，符号为N(A)。
+关系式：n=N/N(A) or N = n x N(A)</chemistry:定义>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#非电解质 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#非电解质">
@@ -1032,6 +1223,7 @@
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#007_N_氮 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#007_N_氮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#HNO3_王水"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#NH2OH_羟胺"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第15列"/>
@@ -1427,6 +1619,8 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#016_S_硫">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2SO3_亚硫酸"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2SO4_硫酸"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#K2SO4"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第16列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第3行"/>
@@ -1437,12 +1631,15 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#017_Cl_氯 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#017_Cl_氯">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#AuCl3_氯化金_金盐"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Cl2_氯水_氯气"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#HAuCl4_氯金酸"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#HCl_盐酸"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#SnCl2_氯化亚锡"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#卤族元素"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第17列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第3行"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#AuCl3_氯化金(金盐)"/>
     </owl:Class>
     
 
@@ -1461,12 +1658,16 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#019_K_钾 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#019_K_钾">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#K2CO3_碳酸钾"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#K2SO4"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#KAuBr4_溴金酸钾"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#KCN_氰化钾"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#KOH_氢氧化钾"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#碱金属"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第01列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第4行"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#KAu(CN)2_氰亚金酸钾盐"/>
     </owl:Class>
     
 
@@ -1499,6 +1700,7 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.02_氯及其化合物">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02_海水中的重要元素-纳和氯"/>
+        <chemistry:知识点>氯离子的检验：先在被检验液中加稀硝酸酸化，再滴入AgNO3溶液，如产生白色沉淀，则可判断该溶液中含有Cl-</chemistry:知识点>
     </owl:Class>
     
 
@@ -1507,6 +1709,7 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.03_物质的量">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02_海水中的重要元素-纳和氯"/>
+        <chemistry:定义>物质的量是一个物理量，它表示含有一定数目粒子的集合体，符号为n，物质的量的单位为摩尔，简称摩，符号为mol</chemistry:定义>
     </owl:Class>
     
 
@@ -1682,6 +1885,7 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#035_Br_溴 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#035_Br_溴">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Br2_溴水"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#KAuBr4_溴金酸钾"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#卤族元素"/>
@@ -2178,13 +2382,16 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#079_Au_金 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#079_Au_金">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Au2O3_氧化金"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#AuCl3_氯化金_金盐"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#HAuCl4_氯金酸"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#KAuBr4_溴金酸钾"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#KAuO2_偏金酸钾"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#element"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第11列"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#第6行"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#AuCl3_氯化金(金盐)"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H[AuCl4]_金化合物"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#KAu(CN)2_氰亚金酸钾盐"/>
     </owl:Class>
     
 
@@ -2704,20 +2911,12 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
     
 
 
-    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#AuCl3_氯化金(金盐) -->
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Ca(OH)2 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#AuCl3_氯化金(金盐)">
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Ca(OH)2">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
-        <chemistry:化学反应式>氯化金与羟胺溶液在冷的情况下能立即分解析出金：
-4AuCl3 + 6NH2OH == 4Au + 3N2O + 12HCL + 3H2O</chemistry:化学反应式>
-        <chemistry:化学反应式>氯化金溶液与过氧化钙反应生成金：
-2AuCl3 + 3CaO2 == 2Au + 3CaCl2 + 3O2</chemistry:化学反应式>
-        <chemistry:化学反应式>金盐溶液与草酸的浓溶液作用生成金沉淀析出：
-3H2C2O4 + 2AuCl3 == 2Au + 6HCl + 6CO2</chemistry:化学反应式>
-        <chemistry:化学反应式>金盐溶液与过氧化钠反应生成金沉淀析出：
-3Na2O2 + 2AuCl3 == 2Au + 6NaCl + 3O2</chemistry:化学反应式>
-        <chemistry:化学反应式>金盐溶液与过硼酸钠作用生成金沉淀：
-12NaBO3 + 4AuCl3 + 12H2O == 4Au + 12NaCl + 12H2BO3 + 6O2</chemistry:化学反应式>
+        <chemistry:化学反应式>氯气与Ca(OH)2反应生成CaCl2和Ca(ClO)2，漂白粉的有效成分是Ca(ClO)2：
+2Ca(OH)2 + 2Cl2 == CaCl2 + Ca(ClO)2 + 2H2O</chemistry:化学反应式>
     </owl:Class>
     
 
@@ -2726,6 +2925,28 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe(OH)3胶体的制备">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.01.02.02_胶体"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H[AuCl4]_金化合物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H[AuCl4]_金化合物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>金化合物与草酸溶液反应金被析出：
+2H[AuCl4] + 3H2C2O4 == 2Au + 8HCl + 6CO2</chemistry:化学反应式>
+        <chemistry:化学反应式>金化合物在中性及弱酸性溶液中与氯化亚锡溶液反应有紫色金析出：
+2H[AuCl4] + 3SnCl2 == 2Au + 3SnCl4 + 2HCl</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#KAu(CN)2_氰亚金酸钾盐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#KAu(CN)2_氰亚金酸钾盐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>氰亚金酸钾盐在氰化钾溶液中有锌屑即有金析出，锌可以取代金：
+2KAu(CN)2 + 4KCN + 2Zn + 2H2O == 2Au + 2K2Zn(CN)2 + 2KOH + H2</chemistry:化学反应式>
     </owl:Class>
     
 
