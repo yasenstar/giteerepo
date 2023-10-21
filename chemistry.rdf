@@ -177,7 +177,6 @@ Fe2O3 + 6HCl == 2FeCl3 + 3H2O</chemistry:化学反应式>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe3O4_四氧化三铁">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#03_铁-金属材料"/>
         <chemistry:化学反应式>四氧化三铁与盐酸反应：
 Fe3O4 + 8HCl == FeCl2 + 2FeCl3 + 4H2O</chemistry:化学反应式>
     </owl:Class>
@@ -1090,7 +1089,6 @@ Cl2 + H2O == HCl + HClO</chemistry:化学反应式>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#錒系元素 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#錒系元素">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#锕系"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#金属"/>
     </owl:Class>
     
@@ -1146,7 +1144,6 @@ Cl2 + H2O == HCl + HClO</chemistry:化学反应式>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#铁的化学性质">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe_铁"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#03_铁-金属材料"/>
         <chemistry:化学反应式>与水蒸气反应：
 3Fe + 4H2O(gas) ==高温== Fe3O4 + 4H2</chemistry:化学反应式>
         <chemistry:化学反应式>铁与氯气反应：
@@ -1163,7 +1160,6 @@ Fe + CuSO4 == FeSo4 + Cu</chemistry:化学反应式>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#铁的存在">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe_铁"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#03_铁-金属材料"/>
         <chemistry:知识点>在地壳中含量仅次于氧、硅和铝，居第四位，主要以+2价和+3价化合物形式存在</chemistry:知识点>
     </owl:Class>
     
@@ -1190,8 +1186,8 @@ Fe + CuSO4 == FeSo4 + Cu</chemistry:化学反应式>
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#镧系 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#镧系">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#镧系元素"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#元素周期表"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#金属"/>
     </owl:Class>
     
 
