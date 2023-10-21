@@ -162,6 +162,36 @@ MnO2 + 4HCl（浓）== MnCl2 + 2H2O + Cl2</chemistry:化学反应式>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe2O3_氧化铁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe2O3_氧化铁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>氧化铁与盐酸反应：
+Fe2O3 + 6HCl == 2FeCl3 + 3H2O</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe3O4_四氧化三铁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe3O4_四氧化三铁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>四氧化三铁与盐酸反应：
+Fe3O4 + 8HCl == FeCl2 + 2FeCl3 + 4H2O</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#FeO_氧化亚铁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#FeO_氧化亚铁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>氧化亚铁与盐酸反应：
+FeO + 2HCl == FeCl2 + H2O</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2C2O4_草酸 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2C2O4_草酸">
@@ -240,6 +270,12 @@ H2O2 + 2Au + 4KCN == 2KAu(CN)2 + 2KOH</chemistry:化学反应式>
 Au + 3HCl + HNO3 == HAuCl4 + 2H2O + NO</chemistry:化学反应式>
         <chemistry:化学反应式>金能溶解于王水中，反应式如下：
 Au + HNO3 + 3HCl == AuCl3 + NO + 2H2O</chemistry:化学反应式>
+        <chemistry:化学反应式>四氧化三铁与盐酸反应：
+Fe3O4 + 8HCl == FeCl2 + 2FeCl3 + 4H2O</chemistry:化学反应式>
+        <chemistry:化学反应式>氧化亚铁与盐酸反应：
+FeO + 2HCl == FeCl2 + H2O</chemistry:化学反应式>
+        <chemistry:化学反应式>氧化铁与盐酸反应：
+Fe2O3 + 6HCl == 2FeCl3 + 3H2O</chemistry:化学反应式>
     </owl:Class>
     
 
@@ -1107,6 +1143,8 @@ Cl2 + H2O == HCl + HClO</chemistry:化学反应式>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#铁的化学性质">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe_铁"/>
+        <chemistry:化学反应式>与水蒸气反应：
+3Fe + 4H2O(gas) ==高温== Fe3O4 + 4H2</chemistry:化学反应式>
         <chemistry:化学反应式>铁与氯气反应：
 2Fe + 3Cl2 == 2FeCl3</chemistry:化学反应式>
         <chemistry:化学反应式>铁与盐酸反应：
