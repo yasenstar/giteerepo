@@ -106,6 +106,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#AuCl3_氯化金_金盐">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <chemistry:化学反应式>氯化氢的溶液与过氧化氢反应有金和氧生成：
+2AuCl3 + 3H2O2 == 2Au + 3O2 + 6HCl</chemistry:化学反应式>
         <chemistry:化学反应式>氯化金与羟胺溶液在冷的情况下能立即分解析出金：
 4AuCl3 + 6NH2OH == 4Au + 3N2O + 12HCL + 3H2O</chemistry:化学反应式>
         <chemistry:化学反应式>氯化金溶液与过氧化钙反应生成金：
@@ -116,8 +118,6 @@
 3Na2O2 + 2AuCl3 == 2Au + 6NaCl + 3O2</chemistry:化学反应式>
         <chemistry:化学反应式>金盐溶液与过硼酸钠作用生成金沉淀：
 12NaBO3 + 4AuCl3 + 12H2O == 4Au + 12NaCl + 12H2BO3 + 6O2</chemistry:化学反应式>
-        <chemistry:化学反应式>氯化氢的溶液与过氧化氢反应有金和氧生成：
-2AuCl3 + 3H2O2 == 2Au + 3O2 + 6HCl</chemistry:化学反应式>
         <rdfs:comment>也叫“金盐”</rdfs:comment>
     </owl:Class>
     
@@ -166,10 +166,10 @@ MnO2 + 4HCl（浓）== MnCl2 + 2H2O + Cl2</chemistry:化学反应式>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#H2C2O4_草酸">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
-        <chemistry:化学反应式>金盐溶液与草酸的浓溶液作用生成金沉淀析出：
-3H2C2O4 + 2AuCl3 == 2Au + 6HCl + 6CO2</chemistry:化学反应式>
         <chemistry:化学反应式>金化合物与草酸溶液反应金被析出：
 2H[AuCl4] + 3H2C2O4 == 2Au + 8HCl + 6CO2</chemistry:化学反应式>
+        <chemistry:化学反应式>金盐溶液与草酸的浓溶液作用生成金沉淀析出：
+3H2C2O4 + 2AuCl3 == 2Au + 6HCl + 6CO2</chemistry:化学反应式>
     </owl:Class>
     
 
@@ -627,10 +627,10 @@ n = m/M or m = n x M or M = m/n</chemistry:定义>
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#氯气">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Cl2_氯水_氯气"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.02_氯及其化合物"/>
-        <chemistry:知识点>氯的存在：氯在自然界中除了以NaCl、MgCl2、CaCl2等形式大量存在于海水中，还存在于陆地的盐湖和盐矿中
-氯的发现：1774年，瑞典化学家舍勒，通过化学反应 4HCL(浓) + MnO2 == MnCl2 + Cl2^ + 2H2O，发现了氯气</chemistry:知识点>
         <chemistry:知识点>氯气的制取：在实验室中，通常用二氧化锰和浓盐酸反应来制取氯气
 MnO2 + 4HCl（浓）== MnCl2 + 2H2O + Cl2</chemistry:知识点>
+        <chemistry:知识点>氯的存在：氯在自然界中除了以NaCl、MgCl2、CaCl2等形式大量存在于海水中，还存在于陆地的盐湖和盐矿中
+氯的发现：1774年，瑞典化学家舍勒，通过化学反应 4HCL(浓) + MnO2 == MnCl2 + Cl2^ + 2H2O，发现了氯气</chemistry:知识点>
     </owl:Class>
     
 
@@ -1099,6 +1099,38 @@ Cl2 + H2O == HCl + HClO</chemistry:化学反应式>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#011_Na_钠"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#02.01_钠及其化合物"/>
         <chemistry:知识点>钠是有银白色金属光泽的固体，钠很软，能用小刀切割，密度比水小，熔、沸点比较低</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#铁的化学性质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#铁的化学性质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe_铁"/>
+        <chemistry:化学反应式>铁与氯气反应：
+2Fe + 3Cl2 == 2FeCl3</chemistry:化学反应式>
+        <chemistry:化学反应式>铁与盐酸反应：
+Fe + 2HCl == FeCl2 + H2</chemistry:化学反应式>
+        <chemistry:化学反应式>铁钉与硫酸铜溶液反应：
+Fe + CuSO4 == FeSo4 + Cu</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#铁的存在 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#铁的存在">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe_铁"/>
+        <chemistry:知识点>在地壳中含量仅次于氧、硅和铝，居第四位，主要以+2价和+3价化合物形式存在</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#铁的物理性质 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#铁的物理性质">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe_铁"/>
+        <chemistry:知识点>银白色金属，导电、导热性好，能被磁铁吸引</chemistry:知识点>
     </owl:Class>
     
 
