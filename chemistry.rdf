@@ -266,18 +266,18 @@ H2O2 + 2Au + 4KCN == 2KAu(CN)2 + 2KOH</chemistry:化学反应式>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#HCl_盐酸">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
-        <chemistry:化学反应式>王水中含有过量的盐酸，溶解不完全，则有中间产物生成：
-4Au + 6HCl + 6HNO3 == 2Au2O2 + 6NOCl + 6H2O + O2</chemistry:化学反应式>
-        <chemistry:化学反应式>金溶解在王水中可生成高价金：
-Au + 3HCl + HNO3 == HAuCl4 + 2H2O + NO</chemistry:化学反应式>
-        <chemistry:化学反应式>金能溶解于王水中，反应式如下：
-Au + HNO3 + 3HCl == AuCl3 + NO + 2H2O</chemistry:化学反应式>
         <chemistry:化学反应式>四氧化三铁与盐酸反应：
 Fe3O4 + 8HCl == FeCl2 + 2FeCl3 + 4H2O</chemistry:化学反应式>
         <chemistry:化学反应式>氧化亚铁与盐酸反应：
 FeO + 2HCl == FeCl2 + H2O</chemistry:化学反应式>
         <chemistry:化学反应式>氧化铁与盐酸反应：
 Fe2O3 + 6HCl == 2FeCl3 + 3H2O</chemistry:化学反应式>
+        <chemistry:化学反应式>王水中含有过量的盐酸，溶解不完全，则有中间产物生成：
+4Au + 6HCl + 6HNO3 == 2Au2O2 + 6NOCl + 6H2O + O2</chemistry:化学反应式>
+        <chemistry:化学反应式>金溶解在王水中可生成高价金：
+Au + 3HCl + HNO3 == HAuCl4 + 2H2O + NO</chemistry:化学反应式>
+        <chemistry:化学反应式>金能溶解于王水中，反应式如下：
+Au + HNO3 + 3HCl == AuCl3 + NO + 2H2O</chemistry:化学反应式>
     </owl:Class>
     
 
@@ -1136,6 +1136,7 @@ Cl2 + H2O == HCl + HClO</chemistry:化学反应式>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#铁的化学性质">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe_铁"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#03_铁-金属材料"/>
         <chemistry:化学反应式>与水蒸气反应：
 3Fe + 4H2O(gas) ==高温== Fe3O4 + 4H2</chemistry:化学反应式>
         <chemistry:化学反应式>铁与氯气反应：
@@ -1152,6 +1153,7 @@ Fe + CuSO4 == FeSo4 + Cu</chemistry:化学反应式>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#铁的存在">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#026_Fe_铁"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#03_铁-金属材料"/>
         <chemistry:知识点>在地壳中含量仅次于氧、硅和铝，居第四位，主要以+2价和+3价化合物形式存在</chemistry:知识点>
     </owl:Class>
     
