@@ -183,6 +183,18 @@ Fe3O4 + 8HCl == FeCl2 + 2FeCl3 + 4H2O</chemistry:化学反应式>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#FeCl3_铁盐 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#FeCl3_铁盐">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#03_铁-金属材料"/>
+        <chemistry:化学反应式>铁盐有氧化性，和铁粉或铜粉发生反应：
+2FeCl3 + Cu == 2FeCl2 + CuCl2 (制电路板原理)
+2FeCl3 + Fe == 3FeCl2</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#FeO_氧化亚铁 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#FeO_氧化亚铁">
@@ -2975,6 +2987,28 @@ MnO2 + 4HCl == MnCl2 + Cl2 + 2H2O</chemistry:知识点>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
         <chemistry:化学反应式>氯气与Ca(OH)2反应生成CaCl2和Ca(ClO)2，漂白粉的有效成分是Ca(ClO)2：
 2Ca(OH)2 + 2Cl2 == CaCl2 + Ca(ClO)2 + 2H2O</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe(OH)2_氢氧化亚铁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe(OH)2_氢氧化亚铁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#03_铁-金属材料"/>
+        <chemistry:化学反应式>氢氧化亚铁与氢氧化铁的转换：
+4Fe(OH)2 + O2 + 2H2O == 4Fe(OH)3</chemistry:化学反应式>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe(OH)3_氢氧化铁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#Fe(OH)3_氢氧化铁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#03_铁-金属材料"/>
+        <chemistry:化学反应式>氢氧化亚铁与氢氧化铁的转换：
+4Fe(OH)2 + O2 + 2H2O == 4Fe(OH)3</chemistry:化学反应式>
     </owl:Class>
     
 
