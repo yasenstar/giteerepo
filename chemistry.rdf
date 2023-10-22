@@ -551,6 +551,38 @@ O族共1个，在周期表中第18纵行，最外层电子数为8个（He为2个
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#共价化合物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#共价化合物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#共价键"/>
+        <chemistry:定义>通过共用电子对形成的化合物</chemistry:定义>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#共价键 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#共价键">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化学键"/>
+        <chemistry:定义>原子间通过共用电子对所形成的相互作用</chemistry:定义>
+        <chemistry:知识点>存在于非金属单质、共价化合物及某些离子化合物</chemistry:知识点>
+        <chemistry:知识点>成键元素：同种或不同种非金属元素化合时能形成共价键</chemistry:知识点>
+        <chemistry:知识点>成键粒子：原子</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#分子间作用力-范德华力 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#分子间作用力-范德华力">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化学键"/>
+        <chemistry:定义>把分子聚在一起的作用力叫做分子间作用力，又叫范德华力。</chemistry:定义>
+        <chemistry:知识点>分子间作用力的规律：一般来说，对于组成和结构相似的物质，相对分子质量越大，分子间作用力越大，物质的熔、沸点也就越高，如卤素单质的熔、沸点：F2&lt;Cl2&lt;Br2&lt;I2</chemistry:知识点>
+        <chemistry:知识点>化学键既影响物质的物理性质，又影响物质的化学性质；而分子间作用力只影响物质的物理性质。</chemistry:知识点>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#分析方法 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#分析方法"/>
@@ -583,7 +615,20 @@ O族共1个，在周期表中第18纵行，最外层电子数为8个（He为2个
 
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合物">
+        <chemistry:知识点>化学反应的本质：化学反应的过程，本质上就是旧化学键断裂和新化学键形成的过程</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化学键 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化学键">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#04_物质结构_元素周期律"/>
+        <chemistry:定义>相邻原子之间强烈的相互作用</chemistry:定义>
+        <chemistry:知识点>化学反应的本质：化学反应的过程，本质上就是旧化学键断裂和新化学键形成的过程</chemistry:知识点>
+        <chemistry:知识点>形成类型：原子间价电子的转移--离子键；原子间价电子的共用--共价键。</chemistry:知识点>
+    </owl:Class>
     
 
 
@@ -742,6 +787,15 @@ n = m/M or m = n x M or M = m/n</chemistry:定义>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#未知">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#style"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#极性键 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#极性键">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#共价键"/>
+        <chemistry:定义>共用电子对偏移的共价键叫极性共价键，简称极性健</chemistry:定义>
     </owl:Class>
     
 
@@ -929,6 +983,26 @@ Cl2 + H2O == HCl + HClO</chemistry:化学反应式>
 与碱【如Ca(OH)2】反应：与OH(-)不反应，但 Ca(2+) + CO3(2-) == CaCO3
 与CaCl2溶液反应： Ca(2+) + CO3(2-) == CaCO3
 主要用途：用于玻璃、造纸、制皂、纺织等工业中</chemistry:知识点>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#离子化合物 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#离子化合物">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#离子键"/>
+        <chemistry:定义>由离子键构成的化合物</chemistry:定义>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#离子键 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#离子键">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化学键"/>
+        <chemistry:定义>带相反电荷离子之间的相互作用（包括静电吸引和静电排斥）叫离子键</chemistry:定义>
+        <chemistry:知识点>成键元素：一般是活泼金属元素和活泼非金属元素</chemistry:知识点>
+        <chemistry:知识点>成键微粒：阴离子和阳离子</chemistry:知识点>
     </owl:Class>
     
 
@@ -1371,6 +1445,15 @@ Fe + CuSO4 == FeSo4 + Cu</chemistry:化学反应式>
         <chemistry:定义>国际上规定，1mol粒子集体所含的粒子数约为6.02xpow(10,23)。
 1mol任何粒子的粒子数叫做阿伏伽德罗常数，符号为N(A)。
 关系式：n=N/N(A) or N = n x N(A)</chemistry:定义>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#非极性键 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#非极性键">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#共价键"/>
+        <chemistry:定义>由同种原子形成共价键，两个原子吸引电子的能力相同，共用电子对不偏向任何一个原子，成键的原子因此不显电性，这样的共价键叫非极性共价键，简称非极性键。</chemistry:定义>
     </owl:Class>
     
 
