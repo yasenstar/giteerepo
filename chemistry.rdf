@@ -1412,6 +1412,7 @@ Fe + CuSO4 == FeSo4 + Cu</chemistry:化学反应式>
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#锕系">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#元素周期表"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#金属"/>
     </owl:Class>
     
 
