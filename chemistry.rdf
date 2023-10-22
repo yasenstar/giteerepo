@@ -510,6 +510,21 @@ Al2O3 + 2NaOH == 2NaAlO2 + H2O</chemistry:化学反应式>
     
 
 
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#元素周期律的应用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#元素周期律的应用">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#元素周期表"/>
+        <chemistry:知识点>判断强弱：根据同周期元素、同主族元素性质的递变规律判断元素性质的强弱</chemistry:知识点>
+        <chemistry:知识点>寻找新物质：
+（1）在金属与非金属分界线附近寻找半导体材料
+（2）研究氟、氯、硫、磷、砷附近元素，制造新农药
+（3）在过渡元素中寻找制造催化剂和耐高温、耐腐蚀的合金的元素</chemistry:知识点>
+        <chemistry:知识点>相互推断：应用于元素“位置--结构--性质”的相互推断</chemistry:知识点>
+        <chemistry:知识点>预测新元素：为新元素的发现及预测它们的原子结构和性质提供线索</chemistry:知识点>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#元素周期表 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#元素周期表">
@@ -553,9 +568,15 @@ O族共1个，在周期表中第18纵行，最外层电子数为8个（He为2个
     <!-- http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合价规律 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#化合价规律">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#元素周期表"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2023/9/chemistry#01.03.05_氧化还原反应规律"/>
         <chemistry:知识点>1. 元素处于最高价态，只具有氧化性；处于最低价态，只具有还原性；处于中间价态，既有氧化性又有还原性。
 2. 同种元素不同价态之间发生氧化还原反应时可总结为：价态相邻能共存，价态相间能归中，归中价态不交叉，价升价降只靠拢</chemistry:知识点>
+        <chemistry:知识点>元素的化合价与元素在周期表中的位置有一定关系：
+1. 主族元素：最高正价=最外层电子数（价电子数）=主族序数（O、F除外）
+2. 非金属主族元素化合价一般规律：
+   （1） 最低负价=族序数-8（金属无负价）
+   （2） 最高正价 + |最低负价| = 8</chemistry:知识点>
     </owl:Class>
     
 
